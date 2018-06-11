@@ -12,4 +12,9 @@ public class CalcTest {
 		Calc c = new Calc();
 		assertEquals(-10, c.sub(10, 20));
 	}
+
+	public void testMulti(){
+		Calc c = new Calc();
+		assertEquals(50, c.multi(25, 2));
+	}
 }
