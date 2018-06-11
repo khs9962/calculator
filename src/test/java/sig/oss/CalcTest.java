@@ -17,4 +17,9 @@ public class CalcTest {
 		Calc c = new Calc();
 		assertEquals(50, c.multi(25, 2));
 	}
+
+	public void testDiv(){
+		Calc c = new Calc();
+		assertEquals(10, c.div(100, 10));
+	}
 }
